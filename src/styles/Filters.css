@@ -1,0 +1,140 @@
+/* .sidebar {
+    width: 250px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+  }
+  
+  .filters-container {
+    background-color: #100f0f; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .filters-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .filter-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .filter-input,
+  .filter-select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+   
+    color: black;
+  }
+  
+  .apply-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+   .sidebar {
+    width: 250px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+  }
+  
+  .filters-container {
+    background-color: #100f0f; /* Matching header color */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .filters-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+  }
+  
+  .filter-label {
+    font-weight: bold;
+    margin-bottom: 25px;
+    cursor: pointer; /* Add cursor pointer for clickable labels */
+  }
+  
+  .filter-input,
+  .filter-select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: black;
+  }
+  
+  .apply-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .logo{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: 40px 0px;
+  }
