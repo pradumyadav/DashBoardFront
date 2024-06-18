@@ -55,7 +55,7 @@ const PriceWidget = ({ selectedCountry }) => {
 
   return (
     <div className="price-widget">
-      <h2>Price Widget</h2>
+      <h2>Widget</h2>
       {selectedCountry && (
         <div className="price-widgets-container">
           <div className={`price-box ${clickedBox === 0 ? 'clicked' : ''}`} onClick={() => handleBoxClick(0)}>

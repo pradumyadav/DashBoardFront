@@ -40,7 +40,7 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const url = "http://localhost:4001/api/getdata?";
+      const url = "https://dashboardbackend-29n3.onrender.com/api/getdata?";
       const queryParams = [];
 
       for (const key in filters) {
